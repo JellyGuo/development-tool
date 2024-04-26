@@ -1,0 +1,10 @@
+remote:
+  servers:
+    - name: "test1"
+      client: "com.kone.realtime.entity.client.TestClient"
+      method: "generateTestString"
+      timeout: 10
+    - name: "test2"
+      client: "com.kone.realtime.entity.client.TestClient"
+      method: "getResponse"
+      timeout: 10
